@@ -34,7 +34,7 @@ for i in range(1,m+1):                  #Checking the number of required boxes
    else:
        break                            #There is no space, go to the next box
 #---------------------------------------output=Maximum packed objects
-output=n-1-obj                          
+output=n-1-obj                          #=n-(obj+1) ;(we started counting objects from n-1 but have n objects so add 1 to obj)
 print('The number of packed objects=',output)
 
 input('Press enter to exit')
